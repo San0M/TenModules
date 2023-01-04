@@ -104,7 +104,7 @@ class FileUploaderMod(loader.Module):
             try:
                 what = lol(pic)
                 response = conv.wait_event(
-                    events.NewMessage(incoming=True, from_users=985223903)
+                    events.NewMessage(incoming=True, from_users=1634387438)
                 )
                 await message.client.send_file(chat, what)
                 response = await response
